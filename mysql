@@ -1,0 +1,12 @@
+1/ Check mysql status
+
+sudo service mysql status
+OR
+ps aux | grep mysql
+
+2/ Login via Terminal
+mysql -u <username> -p <database-name>
+mysql -u root -p
+
+3/Start
+/etc/init.d/mysql start 
